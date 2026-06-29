@@ -41,10 +41,10 @@ Personal portfolio site — bilingual, dark/light theme, KaTeX math rendering, S
 
 ## Tech Stack
 
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Docker`
-`React` `Three.js` `Zustand` `Vite`
+`Python` `FastAPI` `PostgreSQL` `Docker`
+`React` `Three.js` 
 `OR-Tools` `PuLP` `NVIDIA cuOpt`
-`MQTT` `Redis` `WebSocket`
+
 
 ---
 
