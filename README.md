@@ -13,7 +13,7 @@ from mathematical modeling to deployable full-stack products.
 3D Bin-Packing with forklift aisle constraints — FastAPI + React + Three.js + Docker
 `Operations Research` `Python` `React` `PostgreSQL`
 
-**Delivery Tracker** 
+**[Delivery Tracker](https://github.com/wutesta0101-hue/delivery-tracker)**
 Gig economy route recorder + analytics — Capacitor Android App + Web analyzer
 `React` `Capacitor` `GPS` `Excel Export`
 
