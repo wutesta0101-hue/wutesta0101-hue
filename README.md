@@ -13,13 +13,10 @@ from mathematical modeling to deployable full-stack products.
 3D Bin-Packing with forklift aisle constraints — FastAPI + React + Three.js + Docker
 `Operations Research` `Python` `React` `PostgreSQL`
 
-**Delivery Tracker** *(coming soon)*
+**Delivery Tracker** 
 Gig economy route recorder + analytics — Capacitor Android App + Web analyzer
 `React` `Capacitor` `GPS` `Excel Export`
 
-**[buildmodeldeliver.com](https://buildmodeldeliver.com)**
-Personal portfolio site — bilingual, dark/light theme, KaTeX math rendering, Schema.org SEO
-`HTML` `CSS` `JavaScript` `KaTeX`
 
 ---
 
@@ -43,7 +40,7 @@ Personal portfolio site — bilingual, dark/light theme, KaTeX math rendering, S
 
 `Python` `FastAPI` `PostgreSQL` `Docker`
 `React` `Three.js` 
-`OR-Tools` `PuLP` `NVIDIA cuOpt`
+`OR-Tools` 
 
 
 ---
