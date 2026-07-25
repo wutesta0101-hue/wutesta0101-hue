@@ -1,6 +1,6 @@
 # Testa Wu
 
-Software Engineer — Operations Research × Full-Stack Systems
+Software Engineer 
 
 I build optimization systems that solve real engineering problems:
 from mathematical modeling to deployable full-stack products.
