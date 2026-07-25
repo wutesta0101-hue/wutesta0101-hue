@@ -48,4 +48,3 @@ Gig economy route recorder + analytics — Capacitor Android App + Web analyzer
 ## Background
 
 - M.S. Software Engineering & Management, NKNU（2026）
-- Research interests：Operations Research · Combinatorial Optimization · Scheduling
