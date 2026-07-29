@@ -15,15 +15,15 @@ Bi-objective scheduling for dense mobile rack warehouses, where opening an aisle
 
 **[3D Container Packing System](https://github.com/wutesta0101-hue/container-packing)**
 3D Bin-Packing with forklift aisle constraints, stacking density rules, and centre-of-gravity tracking — the physical rules most packing demos ignore.
-`Operations Research` `FastAPI` `React` `PostgreSQL` `Docker`
+`Operations Research` `FastAPI` `React` `PostgreSQL` `Docker` `Live Demo`
 
 **[Container Arrival Tracker](https://github.com/wutesta0101-hue/container-arrival-tracker)**
 Zero-infrastructure tool closing the information gap between procurement, customs, and warehouse teams — single HTML file, three storage layers, no server or IT department required.
-`Logistics` `Google Sheets API` `File System Access API` `Vanilla JS`
+`Logistics` `Google Sheets API` `File System Access API` `Vanilla JS` `Live Demo`
 
 **[Flood Simulation Engine](https://github.com/wutesta0101-hue/flood-sim-react)**
 2D shallow-water solver with real-time 3D visualization — finite volume, HLL Riemann solver, hydrostatic reconstruction for wet–dry fronts. Hand-written in JavaScript, no numerical libraries. Validated against the 2014 Jure landslide-dam failure.
-`Numerical Simulation` `Computational Fluid Dynamics` `React Three Fiber`
+`Numerical Simulation` `Computational Fluid Dynamics` `React Three Fiber` `Live Demo`
 
 
 ---
@@ -48,4 +48,3 @@ Zero-infrastructure tool closing the information gap between procurement, custom
 ## Background
 
 - M.S. Software Engineering & Management, NKNU（2026）
-- Research interests：Combinatorial Optimization · Scheduling · Numerical Simulation
