@@ -2,9 +2,6 @@
 
 Software Engineer — Optimization · Simulation · Full-Stack
 
-I take physical constraints, turn them into mathematical models,
-and ship them as systems you can actually run.
-
 ---
 
 ## Projects
@@ -47,4 +44,4 @@ Zero-infrastructure tool closing the information gap between procurement, custom
 
 ## Background
 
-- M.S. Software Engineering & Management, NKNU（2026）
+- M.S. Software Engineering & Management, NKNU (2026)
