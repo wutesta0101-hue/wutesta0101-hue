@@ -1,47 +1,77 @@
 # Testa Wu
 
-Software Engineer — Optimization · Simulation · Full-Stack
-
----
+Software Engineer — M.S. Software Engineering & Management, NKNU (2026)
 
 ## Projects
 
-**[EMR Picking Sequence Optimizer](https://github.com/wutesta0101-hue/emr-scheduling)**
+### [EMR Picking Sequence Optimizer](https://github.com/wutesta0101-hue/emr-scheduling)
+
 Bi-objective scheduling for dense mobile rack warehouses, where opening an aisle costs 1.74× more than picking a pallet. Cost model derived from forklift specifications; dual-stage hybrid genetic algorithm; interactive 3D replay.
-`Operations Research` `Genetic Algorithms` `Three.js` `Live Demo`
+`Operations Research` `Genetic Algorithms` `Three.js r128` `Node.js worker pool` `AutoCAD`
 
-**[3D Container Packing System](https://github.com/wutesta0101-hue/container-packing)**
-3D Bin-Packing with forklift aisle constraints, stacking density rules, and centre-of-gravity tracking — the physical rules most packing demos ignore.
-`Operations Research` `FastAPI` `React` `PostgreSQL` `Docker` `Live Demo`
+![960-slot mobile rack warehouse, interactive 3D replay of the picking sequence](assets/emr-hero.png)
 
-**[Container Arrival Tracker](https://github.com/wutesta0101-hue/container-arrival-tracker)**
-Zero-infrastructure tool closing the information gap between procurement, customs, and warehouse teams — single HTML file, three storage layers, no server or IT department required.
-`Logistics` `Google Sheets API` `File System Access API` `Vanilla JS` `Live Demo`
+**▶ [Live Demo](https://wutesta0101-hue.github.io/emr-scheduling)** · [Full README](https://github.com/wutesta0101-hue/emr-scheduling#readme) · [中文版](https://github.com/wutesta0101-hue/emr-scheduling/blob/main/README.zh-TW.md)
 
-**[Flood Simulation Engine](https://github.com/wutesta0101-hue/flood-sim-react)**
-2D shallow-water solver with real-time 3D visualization — finite volume, HLL Riemann solver, hydrostatic reconstruction for wet–dry fronts. Hand-written in JavaScript, no numerical libraries. Validated against the 2014 Jure landslide-dam failure.
-`Numerical Simulation` `Computational Fluid Dynamics` `React Three Fiber` `Live Demo`
+<details>
+<summary><b>Architecture</b></summary>
 
+![Architecture](assets/emr-arch.png)
+
+</details>
 
 ---
 
+### [3D Container Packing System](https://github.com/wutesta0101-hue/container-packing)
+
+3D Bin-Packing with forklift aisle constraints, stacking density rules, and centre-of-gravity tracking — the physical rules most packing demos ignore.
+`Operations Research` `Python 3.12 / FastAPI` `React 19` `React Three Fiber` `PostgreSQL 16` `Docker Compose`
+
+![Packing result: 75 items, 53.6% volume utilisation, with centre-of-gravity and payload checks](assets/solid-view.png)
+
+**▶ [Live Demo](https://wutesta0101-hue.github.io/container-packing)** · [Full README](https://github.com/wutesta0101-hue/container-packing#readme) · [中文版](https://github.com/wutesta0101-hue/container-packing/blob/master/README%28zh%29.md)
+
+<details>
+<summary><b>Architecture &amp; container topology</b></summary>
+
+![Architecture](assets/container-packing-arch.png)
+
+![Container topology](assets/container-packing-topology.png)
+
+</details>
+
+---
+
+### [Distributed Vision Detection System](https://github.com/wutesta0101-hue/vision-detect)
+
+Phone captures a photo → C# service orchestration → Python YOLOv8 inference → results pushed back to the desktop over SignalR. Two languages, and three failure modes handled by design: duplicate resends, downstream outage, and long-running work.
+`C# / ASP.NET Core 8` `Python / FastAPI` `YOLOv8` `Vue 3` `.NET MAUI` `SignalR` `PostgreSQL 16` `Docker Compose`
+
+![Phone captures a photo, desktop updates in real time](assets/demo-mobile.gif)
+
+[Full README](https://github.com/wutesta0101-hue/vision-detect#readme) · [中文版](https://github.com/wutesta0101-hue/vision-detect/blob/main/README%28zh%29.md)
+
+<details>
+<summary><b>Architecture &amp; container topology</b></summary>
+
+![Architecture](assets/vision-detect-arch.png)
+
+![Container topology](assets/vision-detect-topology.png)
+
+</details>
+
+---
 ## Writing
 
 - [How I Built a 3D Container Packing Engine That Respects Physics — Not Just Math](https://medium.com/@wutesta0101/a4e28c672c74) `3D Bin-Packing · Forklift Constraints`
-- [How I Modeled a Staff Scheduling Problem for a Postpartum Care Center](https://medium.com/@wutesta0101/how-i-modeled-a-staff-scheduling-problem-for-a-postpartum-care-center-a4180ee53260) `Staff Scheduling · Integer Programming · OR`
-- [How I Built a Zero-Infrastructure Tool to Fix a Cross-Department Information Problem](https://medium.com/@wutesta0101/how-i-built-a-zero-infrastructure-tool-to-fix-a-cross-department-information-problem-8820a4c7f095) `Zero-Infrastructure · Logistics · Open Source`
-- [How I Designed the Front Desk Console for a Postpartum Care Center](https://medium.com/@wutesta0101/how-i-designed-the-front-desk-console-for-a-postpartum-care-center-1bcc28bba350) `Product Design · State Machine · UI/UX`
 
 ---
 
 ## Tech Stack
 
-`Python` `FastAPI` `SQLAlchemy` `PostgreSQL` `Docker`
-`React` `Vite` `Zustand` `Three.js` `React Three Fiber` `Node.js`
-`Genetic Algorithms` `Numerical Methods` `AutoCAD`
+`Python` `FastAPI` `SQLAlchemy` `Pydantic` `PostgreSQL` `Docker Compose`
+`C#` `.NET 8` `ASP.NET Core` `EF Core` `SignalR` `.NET MAUI` `xUnit`
+`React` `Vue 3` `Vite` `Zustand` `Pinia` `Three.js` `React Three Fiber` `Node.js`
+`YOLOv8` `PyTorch` `Genetic Algorithms` `Numerical Methods` `AutoCAD`
 
----
 
-## Background
-
-- M.S. Software Engineering & Management, NKNU (2026)
