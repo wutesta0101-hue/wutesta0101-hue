@@ -4,6 +4,12 @@ Software Engineer — M.S. Software Engineering & Management, NKNU (2026)
 
 ## Projects
 
+| Project | What it does |
+|---|---|
+| **[EMR Picking Sequence Optimizer](#emr-picking-sequence-optimizer)** | Bi-objective scheduling for mobile rack warehouses — opening an aisle costs 1.74× a pallet pick |
+| **[3D Container Packing System](#3d-container-packing-system)** | 3D bin-packing that respects forklift aisles, stacking support, and centre of gravity |
+| **[Distributed Vision Detection System](#distributed-vision-detection-system)** | Phone → C# orchestration → Python YOLOv8 → results pushed back live over SignalR |
+
 ### [EMR Picking Sequence Optimizer](https://github.com/wutesta0101-hue/emr-scheduling)
 
 Bi-objective scheduling for dense mobile rack warehouses, where opening an aisle costs 1.74× more than picking a pallet. Cost model derived from forklift specifications; dual-stage hybrid genetic algorithm; interactive 3D replay.
